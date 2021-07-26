@@ -11,8 +11,8 @@ script:
 
 deploy:
   provider: azure_web_apps
-  username: "travis-docker-react"
-  password: $AZURE_PASSWORD
+  username: $AZURE_WA_USERNAME
+  password: $AZURE_WA_PASSWORD
   site: "docker-react-1.azurewebsites.net"
   on: 
     branch: main
