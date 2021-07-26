@@ -15,5 +15,5 @@ deploy:
   password: $AZURE_WA_PASSWORD
   site: "docker-react-1.azurewebsites.net"
   on: 
-    branch: main
+    branch: master
 
